@@ -1,0 +1,115 @@
+/* Contenedor principal de las tarjetas */
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #7118c5;
+}
+
+/* Logo */
+h1 img {
+    position: absolute;
+    left: 70px;
+    top: 0;
+}
+
+/* Tamaño del logo */
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* Subtítulos de las tarjetas */
+h2 {
+    font-size: 22px;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgb(253, 216, 168);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Médicos 1 y 6 */
+#medico1, #medico6 {
+    background-color: rgba(221, 63, 116, 0.781);
+    color: rgb(1, 30, 160);
+    text-align: right;
+    padding: 15px;
+    border: 3px solid rgba(160, 45, 83, 0.479);
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+/* Médicos 2 y 5 */
+#medico2, #medico5 {
+    background-color: rgba(200, 255, 97, 0.747);
+    color: rgb(1, 30, 160);
+    text-align: center;
+    padding: 15px;
+    border: 3px solid rgba(128, 163, 62, 0.507);
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+/* Médicos 3 y 4 */
+#medico3, #medico4 {
+    background-color: rgba(136, 144, 255, 0.733);
+    color: rgb(1, 30, 160);
+    text-align: left;
+    padding: 15px;
+    border: 3px solid rgba(63, 70, 177, 0.466);
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+/* Título del footer */
+#encabezadofooter {
+    text-align: center;
+    color: #7118c5;
+    font-size: 22px;
+}
+
+/* Texto del footer */
+#parrafofooter {
+    text-align: left;
+    color: #7118c5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* Imágenes de los médicos */
+.img-medico {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Botones */
+button {
+    display: block;
+    margin: 10px auto;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(17, 127, 253);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background-color: darkblue;
+}
